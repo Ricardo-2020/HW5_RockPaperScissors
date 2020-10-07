@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock Paper Scissors Game</title>
+    <!-- Font Awesome kit's SRC code -->
+    <script src="https://kit.fontawesome.com/d0d8796471.js" crossorigin="anonymous"></script>
+    <!-- Local Style Sheet -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- title of the page -->
+    <header>
+        <h1>Rock Paper Scissors</h1>
+    </header>
+
+    <!-- Scoreboard -->
+    <div class="score-board">
+        <div class="badge" id="user-label">user</div>
+        <div class="badge" id="computer-label">comp</div>
+        <span id="user-score">0</span>:<span id="computer-score">0</span>
+    </div>
+
+    <!-- Results Windows -->
+    <div class="results">
+        <p>Paper Covers rock. You win!</p>
+    </div>
+
+    <!-- Choice Windows -->
+    <div class="choices">
+        <div class="choice" id="r">
+            <i class="fas fa-hand-rock"></i>
+        </div>
+        <div class="choice" id="p">
+            <i class="fas fa-hand-paper"></i>
+        </div>
+        <div class="choice" id="s">
+            <i class="fas fa-hand-scissors"></i>
+        </div>
+    </div>
+
+    <!-- action message -->
+    <p id="action-message">Make Your Move.</p>
+
+</body>
+</html>
